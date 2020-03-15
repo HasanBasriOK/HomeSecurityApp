@@ -32,4 +32,10 @@ Database: MSSQL
 Mobile application: Xamarin android
 Mobile-DB communication: ASP.NET Web Api
 
+![image](https://github.com/HasanBasriOK/HomeSecurityApp/blob/master/pictures/Picture1.jpg)
+
+![image](https://github.com/HasanBasriOK/HomeSecurityApp/blob/master/pictures/Screenshot_2018-05-23-06-48-23.png)
+
+![image](https://github.com/HasanBasriOK/HomeSecurityApp/blob/master/pictures/Screenshot_2018-05-23-06-50-31.png)
+
 I hope it helps for you
