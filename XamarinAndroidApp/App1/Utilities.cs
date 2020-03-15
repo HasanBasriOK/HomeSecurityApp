@@ -38,7 +38,7 @@ namespace App1
         public static string AdresBul(double enlem, double boylam)
         {
             RootObject address = new RootObject();
-            string uri = string.Format("https://maps.googleapis.com/maps/api/geocode/json?latlng={0},{1}&key=AIzaSyD0UH4kEoAONxFoN6CbLBqhlQM2LuoAPmg", enlem.ToString().Replace(',', '.'), boylam.ToString().Replace(',', '.'));
+            string uri = string.Format("https://maps.googleapis.com/maps/api/geocode/json?latlng={0},{1}&key={securekey}", enlem.ToString().Replace(',', '.'), boylam.ToString().Replace(',', '.'));
             HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create(new Uri(uri));
             request.ContentType = "application/json";
             request.Method = "GET";
